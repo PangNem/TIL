@@ -13,4 +13,4 @@ git remote add origin https://github.com/NAME/REPOSITORY_NAME.git
 git push -u origin main
 ```
 
-git push 명령어를 했을 때 repository를 찾을 수 없다고 하는 경우, 오타나 github 내에서 access가 있는지 확인하자.
+git push 명령어를 했을 때 repository를 찾을 수 없다고 하는 경우, 오타나 github 내에서 access가 있는지 확인하자. - [remote repository 공유가 안될 때](https://o-yeon.tistory.com/90)
