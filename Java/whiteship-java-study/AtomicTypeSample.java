@@ -1,3 +1,5 @@
+import java.util.concurrent.atomic.AtomicLong;
+
 public class AtomicTypeSample {
     public static void main(String[] args) {
         AtomicLong atomicLong = new AtomicLong();
