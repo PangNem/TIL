@@ -21,10 +21,16 @@ public class MyQueue {
 
   public int dequeue() {
     int firstValue = this.data[0];
-    for (int i = 0; i < this.data.length - 1; i++) {
+    if (index == 0) {
+      throw new ArrayIndexOutOfBoundsException("꺼낼 데이터 없음");
+    }
+    this.index--;
+    for (int i = 0; i < index; i++) {
       this.data[i] = this.data[i + 1];
     }
 
+    int lastValueIndex = this.data.length - 1;
+    this.data[lastValueIndex] = 0;
     return firstValue;
   }
 }
